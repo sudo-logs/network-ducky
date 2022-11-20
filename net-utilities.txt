@@ -1,0 +1,18 @@
+GUI r
+STRING powershell
+ENTER
+DELAY 3000
+STRING ping www.google.com
+ENTER
+DELAY 6000
+STRING nslookup www.google.com
+ENTER
+DELAY 6000
+STRING tracert www.google.com
+ENTER
+DELAY 25000
+GUI r
+STRING notepad
+ENTER
+DELAY 1000
+STRING Network testing completed!
